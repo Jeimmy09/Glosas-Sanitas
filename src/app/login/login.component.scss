@@ -1,21 +1,35 @@
 .example-card {
     max-width: 400px;
-  }
-  
-  .example-header-image {
-    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-    background-size: cover;
-    
-  }
-  .center-content {
-  text-align:-webkit-center;
-  }
-  .mat-card {
+}
+.PYS-image {
+    background-image: url('https://onx.la/a3467');
+    background-size: cover
+}
+.center-content {
+  text-align:-webkit-center
+}
+.mat-card {
     background: #fff;
     color: rgba(0,0,0,.87);
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    
+    transform: translate(-50%, -50%)
+}
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%
+}
+.example-full-width {
+  margin-top: 10px;
+  width: 100%
+}
+.mat-button {
+  margin-top: 10px;
+  width: 100%;
+  color: white;
+  height: 40px;
+  background-color: #3fb566;
+  border: 0px;
 }
